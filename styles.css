@@ -1,0 +1,106 @@
+/* Estilos Base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    /* Usamos flexbox en el body para centrar el login y presentación */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alineación inicial arriba, para acomodar ambos elementos */
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilos de Presentación Personal */
+.header-presentacion {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.header-presentacion h1 {
+    margin: 0;
+}
+.header-presentacion p {
+    margin-top: 5px;
+}
+
+/* Estilos del Contenedor de Login */
+.login-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+.acerca-de h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+/* Estilos para los mensajes de error/éxito */
+.message {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
