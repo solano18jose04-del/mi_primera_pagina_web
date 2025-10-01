@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Solano - Entrenamiento y Motivación</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="header-presentacion">
+        <h1>¡Bienvenido, soy Jose Solano!</h1>
+        <p>De *Carreto, Atlántico*. Mi pasión es el desarrollo web y el ejercicio diario.</p>
+    </header>
+
+    <main class="login-container">
+        <section class="acerca-de">
+            <h2>Acceso a mis Rutinas Diarias</h2>
+            <p>Ingresa tus credenciales para ver el plan de entrenamiento y frases motivadoras.</p>
+        </section>
+        
+        <form id="loginForm">
+            
+            <div class="input-group">
+                <label for="identifier">Correo Electrónico (o Teléfono)</label>
+                <input type="text" id="identifier" name="identifier" required 
+                       placeholder="Tu correo o teléfono">
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit" id="loginButton">Ingresar</button>
+            
+            <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+            
+            <p id="message-area" class="message"></p>
+        </form>
+    </main>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
